@@ -67,7 +67,7 @@ Chocolatey is a package manager for Windows. It is used to make it easy to insta
 mkdir c:\opt\chocolatey
 set ChocolateyInstall=c:\opt\chocolatey
 choco source add -n=ros-win -s="https://aka.ms/ros/public" --priority=1
-choco upgrade ros-foxy-desktop -y --execution-timeout=0 --pre
+choco upgrade ros-foxy-desktop -y --execution-timeout=0
 ```
 
 You can close the command prompt now.
